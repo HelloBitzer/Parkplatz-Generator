@@ -1,0 +1,48 @@
+hr
+{
+	border-top: 5px dashed white;
+	color: gray;
+	margin: 60px;
+}
+
+#Maindiv
+{
+	display: grid;	
+	grid-template-columns: auto auto auto;
+}
+#Headline, #Fussleiste
+{
+	grid-column: 1/ 4;
+	background: blue;
+	color : white;
+	display: flex; 
+	justify-content: Center;
+}
+#StrassenWahl, #ParkplatzWahl, #StartbuttonBereich
+{
+	background: Coral;
+	padding: 10px;
+	display: flex; 
+	justify-content: space-around;
+}
+
+#Parkplatz
+{
+grid-column: 1/ 4;	
+min-height: 100px;
+background: gray;	
+display: flex;
+justify-content: center;
+
+	
+}	
+.Strassen
+{
+	grid-column: 1/ 4;	
+	background: gray;	
+}
+.DStrassen
+{
+		display: grid;	
+	grid-template-columns: auto auto auto;
+}
